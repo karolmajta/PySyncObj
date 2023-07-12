@@ -42,7 +42,7 @@ else:
     except ImportError:
         import pickle
 
-__protocol = 2
+__protocol = 5
 
 
 def to_bytes(data):
